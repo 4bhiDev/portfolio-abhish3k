@@ -1,6 +1,6 @@
 *{
-    background-color: #222831;
-    color: #e7e40c;
+    background-color: #1b1b1b;
+    color: white;
 }
 body{
     font-family: Arial, sans-serif;
@@ -31,8 +31,9 @@ body{
     display: flex;
     padding: 8px 16px;
     border-radius: 15px;
-    border: #e7e40c solid;
-    border-width: 2px;
+    border: rgba(255, 255, 255, 0.123) solid;
+    border-width: 1px;
+    font-size: 70%;
 }
 .navbar ul li {
     margin: 0 15px;
@@ -51,49 +52,49 @@ body{
     color: rgb(0, 0, 0);
     
 }
+
 .intro{
     color: black;
     background-color: #e7e40c;
     display: inline-block;
-    height: 40px;
-    width: 170px;
-    padding-left: 25px;
-    padding-right: 20px;
-    padding-top: 15px;
+    padding: 10px;
     border-radius: 9px;
-    font-size: larger;
+    font-size: 2vw;
     margin-top: 80px;
-    margin-left: 60px;
+    margin-left: 5vw;
+    font-weight: bolder;
 }
 .iam{
-    font-weight: bolder;
-    font-size: 34px;
-    margin-left: 60px;
+    font-weight: bold;
+    font-size: 3vw;
+    margin-left: 7vw;
     margin-bottom: 0px;
 }
-.about{
+.b{
+    color: rgb(255, 177, 32);
+}
+.text{
     margin-left: 40px;
     font-family: monospace;
-    font-size: 18px;
+    font-size: 1.4vw;
     margin-top: 29px;
 }
+.about{
+    margin-bottom: 0pxA;
+}
 .about2{
-    margin-left: 40px;
-    font-family: monospace;
-    font-size: 18px;
-    margin-bottom: 80px;
+    margin-left: 0px;
+    margin-top: 3px;
 }
 .profile{
     display: flex;
     align-items: center;
 }
-.text{
-    flex: 1;
-}
+
 .sponge{
-    height: auto;
+
     margin-left: 20px;
-    width: 280px;
+    width: 20vw;
     float: right;
     margin-left: 30;
 }
