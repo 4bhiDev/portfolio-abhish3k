@@ -4,27 +4,60 @@
 }
 body{
     font-family: Arial, sans-serif;
-    display: flexbox;
 }
 .topname{
-    margin-left: 25px;
-    color: white;
+    margin-left: 4.3958vw;
     display: inline;
+    font-weight: bold;
+    font-size: 1.2vw;
+    
+}
+.names{
+    display: inline-block;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: rgba(255, 255, 255, 0.932);
 }
 .icon{
     display: inline;
     float: right;
-    margin-right: 10px;
+    margin-right: 2.6vw;
+    margin-top: 24px;
+    font-size: 1.2vw;
+
 }
 .a{
     color: rgb(255, 177, 32);
     font-weight: bold;
-    font-size: large;
+    font-size: 2vw;
 }
 .navbar{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    width: 100%;
+    
+}
+
+.home{
+    background-color: rgba(255, 177, 32, 0.932);
+    
+}
+#home2:hover{
+    background-color: rgba(255, 177, 32, 0.932);
+}
+.works{
+    background-color: rgba(255, 177, 32, 0.932);
+}
+#works2{
+    background-color: rgba(255, 177, 32, 0.932);
+}
+.contact{
+    background-color: rgba(255, 177, 32, 0.932);
+}
+#contact2{
+    background-color: rgba(255, 177, 32, 0.932);
 }
 .navbar ul{
     list-style: none;
@@ -34,6 +67,7 @@ body{
     border: rgba(255, 255, 255, 0.123) solid;
     border-width: 1px;
     font-size: 70%;
+    font-weight: lighter;
 }
 .navbar ul li {
     margin: 0 15px;
@@ -46,10 +80,9 @@ body{
     transition: 0.3s;
 }
 
-.navbar ul li a.active,
 .navbar ul li a:hover {
-    background-color: #e7e40c;
-    color: rgb(0, 0, 0);
+    background-color: #ffffff1a;
+    color: rgb(255, 255, 255);
     
 }
 
@@ -80,7 +113,7 @@ body{
     margin-top: 29px;
 }
 .about{
-    margin-bottom: 0pxA;
+    margin-bottom: 0px;
 }
 .about2{
     margin-left: 0px;
@@ -95,66 +128,121 @@ body{
 .sponge{
 
     margin-left: 20px;
-    width: 20vw;
+    width: 18vw;
     float: right;
-    margin-right: 20px;
+    margin-right: 40px;
+    border-radius: 10px;
 }
 .skills{
-    font-weight: bolder;
-    font-size: 34px;
+    font-weight: bold;
+    font-size: 3vw;
     text-align: center;
     margin-top: 80px;
     margin-bottom:45px;
 }
+.co{
+    color: rgb(255, 177, 32);
+}
 .part{
     text-align: center;
-    padding: 50px;
     border-radius: 10px;
 }
 .lang{
+    padding: 5vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 2vh;
 }
 .skill{
-    background-color: #393E46;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 10px;
+    background-color: #2a2d33;
+    padding: 0.6vw 0.4vw;
+    font-size: 1.4vw;
+    border-radius: .1rem;
     font-weight: bold;
     color: white;
-    margin-right: 15px;
+    margin-right: 1vw;
 }
 .skill:hover{
-    background-color: #7382a8;
+    background-color: rgb(255, 177, 32);
 }
+
 .proj{
     font-weight: bolder;
-    font-size: 34px;
-    margin-left: 60px;
+    font-size: 3vw;
+    text-align: center;
     margin-top: 80px;
+    margin-bottom:45px;
+}
+.po{
+    color: rgb(255, 177, 32);
 }
 .projects{
     font-family: 'Courier New', Courier, monospace;
-    margin-left: 20px;
+    margin-left: 10vw;
     margin-bottom: 60px;
     margin-top: 60px;
-    font-size: 16px;
+    font-size: 1.3vw;
+    color: rgba(255, 255, 255, 0.76);
 }
+
 .cont{
     font-weight: bolder;
-    font-size: 34px;
-    margin-left: 60px;
+    font-size: 3vw;
     margin-top: 80px;
-    margin-bottom: 27px;
+    margin-bottom:25px;
     display: block;
+    margin-left: 7vw;
+    color: rgb(255, 177, 32);
 }
 .abouttalking{
-    margin-left: 40px;
+    margin-left: vw;
     font-family: monospace;
-    font-size: 18px;
+    font-size: 1.4vw;
     margin-top: 29px;   
+    width: 50%;
+    margin-right: 15px;
+}
+
+input, textarea{
+    border: none;
+    padding: 20px;
+}
+input{
+    width: 23vw;
+}
+textarea{
+    width: 23vw;
+}
+.formgroup{
+    margin: 3px;
+    border: solid;
+    
+}
+.submit{
+    display: block;
+    margin: auto;
+    background-color: rgb(255, 177, 32);
+    border: none;
+    height: 30px;
+    width: 105px;
+    border-radius: 4px;
+}
+.submit:hover{
+    cursor: pointer;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon2{
+    margin-left: 2.6vw;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+    font-size: 1.2vw;
 }
 
 @media screen and (max-width: 607px) {
