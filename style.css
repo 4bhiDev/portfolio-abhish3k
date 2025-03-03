@@ -253,25 +253,28 @@ textarea{
         margin-left: 4.3958vw;
         display: inline;
         font-weight: bold;
-        font-size: 2.5vw;
+        font-size: 4.5vw;
+        
+    }
+    .names{
+        margin-top: 35px;
     }
     .a{
         color: rgb(255, 177, 32);
         font-weight: bold;
-        font-size: 4vw;
+        font-size: 6vw;
     }
     .icon{
         display: inline;
         float: right;
         margin-right: 2.6vw;
-        margin-top: 24px;
-        font-size: 2.5vw;
+        margin-top: 43px;
+        font-size: 4.5vw;
     }
     .navbar{
         display: flex;
         justify-content: center;
-        margin-top: 20px;
-        font-size: small;
+        margin-top: 42px;
     }
     .navbar ul{
         list-style: none;
@@ -280,7 +283,7 @@ textarea{
         border-radius: 15px;
         border: rgba(255, 255, 255, 0.123) solid;
         border-width: 1px;
-        font-size: 70%;
+        font-size: 80%;
         font-weight: lighter;
     }
     .navbar ul li a {
@@ -296,26 +299,27 @@ textarea{
         display: inline-block;
         padding: 7px;
         border-radius: 2px;
-        font-size: 4vw;
+        font-size: 5.3vw;
         margin-top: 60px;
         margin-left: 5vw;
         font-weight: bolder;
+        margin-bottom: 25px;
     }
     .iam{
         font-weight: bold;
-        font-size: 4.2vw;
+        font-size: 5vw;
         margin-left: 7vw;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
     }
     .profile{
         display: flex;
         align-items: center;
         flex-direction: column-reverse;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
     .sponge{
         margin-left: 0px;
-        width: 28vw;
+        width: 45vw;
         align-items: center;
         margin-right: 0px;
         border-radius: 4px;
@@ -325,7 +329,7 @@ textarea{
     .text{
         margin-left: 0px;
         font-family: monospace;
-        font-size: 2vw;
+        font-size: 3vw;
         margin-top: 0px;
         text-align: center;
         width: 80%;
@@ -339,7 +343,7 @@ textarea{
     }
     .skills{
         font-weight: bold;
-        font-size: 4.2vw;
+        font-size: 5.2vw;
         text-align: center;
         margin-top: 60px;
         margin-bottom: 30px;
@@ -353,11 +357,12 @@ textarea{
         flex-wrap: wrap;
         justify-content: center;
         gap: 2vh;
+        margin-bottom: 30px;
     }
     .skill{
         background-color: #2a2d33;
         padding: 0.6vw 0.4vw;
-        font-size: 2vw;
+        font-size: 3vw;
         border-radius: .1rem;
         font-weight: bold;
         color: white;
@@ -369,7 +374,7 @@ textarea{
     
     .proj{
         font-weight: bolder;
-        font-size: 4.2vw;
+        font-size: 5.2vw;
         text-align: center;
         margin-top: 60px;
         margin-bottom:30px;
@@ -380,14 +385,14 @@ textarea{
     .projects{
         font-family: 'Courier New', Courier, monospace;
         margin-left: 10vw;
-        margin-bottom: 30px;
-        margin-top: 30px;
-        font-size: 2vw;
+        margin-bottom: 40px;
+        margin-top: 50px;
+        font-size: 3vw;
         color: rgba(255, 255, 255, 0.76);
     }
     .cont{
         font-weight: bolder;
-        font-size: 4.2vw;
+        font-size: 5.2vw;
         margin-top: 60px;
         margin-bottom:25px;
         display: block;
@@ -397,7 +402,7 @@ textarea{
     }
     .abouttalking{
         font-family: monospace;
-        font-size: 2vw;
+        font-size: 3vw;
         margin-top: 0px;   
         width: 50%;
         margin-right: 0px;
@@ -415,11 +420,13 @@ textarea{
     }
     input{
         width: 23vw;    
-        font-size: 1.4vw;
+        font-size: 2.4vw;
+        padding: 3vw;
     }
     textarea{
         width: 23vw;
-        font-size: 1.4vw;
+        font-size: 2.4vw;
+        padding: 3vw;
     }
     .formgroup{
         margin: 0px;
@@ -430,10 +437,9 @@ textarea{
         margin: auto;
         background-color: rgb(255, 177, 32);
         border: none;
-        height: 2.3vw;
-        width: 10vwpx;
+        height: 5.3vw;
         border-radius: 4px;
-        font-size: 1.2vw;
+        font-size: 2.4vw;
         margin-bottom: 20px;
     }
     .submit:hover{
@@ -444,10 +450,11 @@ textarea{
         background-color: rgb(226, 183, 102);
     }
     .icon2{
+        display: inline;
+        float: left;
         margin-left: 2.6vw;
-        margin-bottom: 15px;
-        margin-top: 15px;
-        font-size: 1.2vw;
+        margin-bottom: 43px;
+        font-size: 4.5vw;
     }
     
 }
