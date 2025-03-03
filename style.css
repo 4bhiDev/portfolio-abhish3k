@@ -205,18 +205,19 @@ body{
 }
 
 input, textarea{
-    border: none;
-    padding: 20px;
+    border: solid;
+    padding: 1vw;
 }
 input{
-    width: 23vw;
+    width: 23vw;    
+    font-size: 1.4vw;
 }
 textarea{
     width: 23vw;
+    font-size: 1.4vw;
 }
 .formgroup{
     margin: 3px;
-    border: solid;
     
 }
 .submit{
@@ -224,9 +225,10 @@ textarea{
     margin: auto;
     background-color: rgb(255, 177, 32);
     border: none;
-    height: 30px;
-    width: 105px;
+    height: 2.3vw;
+    width: 10vwpx;
     border-radius: 4px;
+    font-size: 1.2vw;
 }
 .submit:hover{
     cursor: pointer;
