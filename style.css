@@ -10,7 +10,6 @@ body{
     display: inline;
     font-weight: bold;
     font-size: 1.2vw;
-    
 }
 .names{
     display: inline-block;
@@ -25,7 +24,6 @@ body{
     margin-right: 2.6vw;
     margin-top: 24px;
     font-size: 1.2vw;
-
 }
 .a{
     color: rgb(255, 177, 32);
@@ -37,7 +35,6 @@ body{
     justify-content: center;
     margin-top: 20px;
     width: 100%;
-    
 }
 
 .home{
@@ -232,6 +229,10 @@ textarea{
 }
 .submit:hover{
     cursor: pointer;
+    background-color: rgb(253, 194, 85);
+}
+.submit:active{
+    background-color: rgb(226, 183, 102);
 }
 
 .all{
@@ -248,11 +249,205 @@ textarea{
 }
 
 @media screen and (max-width: 607px) {
-    .profile{
+    .topname{
+        margin-left: 4.3958vw;
+        display: inline;
+        font-weight: bold;
+        font-size: 2.5vw;
+    }
+    .a{
+        color: rgb(255, 177, 32);
+        font-weight: bold;
+        font-size: 4vw;
+    }
+    .icon{
+        display: inline;
+        float: right;
+        margin-right: 2.6vw;
+        margin-top: 24px;
+        font-size: 2.5vw;
+    }
+    .navbar{
         display: flex;
-        flex-direction: column-reverse;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: small;
+    }
+    .navbar ul{
+        list-style: none;
+        display: flex;
+        padding: 4px 8px;
+        border-radius: 15px;
+        border: rgba(255, 255, 255, 0.123) solid;
+        border-width: 1px;
+        font-size: 70%;
+        font-weight: lighter;
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 2px 4px;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+    .intro{
+        color: black;
+        background-color: #e7e40c;
+        display: inline-block;
+        padding: 7px;
+        border-radius: 2px;
+        font-size: 4vw;
+        margin-top: 60px;
+        margin-left: 5vw;
+        font-weight: bolder;
     }
     .iam{
-        margin-left: 50px;
+        font-weight: bold;
+        font-size: 4.2vw;
+        margin-left: 7vw;
+        margin-bottom: 0px;
     }
+    .profile{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+    .sponge{
+        margin-left: 0px;
+        width: 28vw;
+        align-items: center;
+        margin-right: 0px;
+        border-radius: 4px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .text{
+        margin-left: 0px;
+        font-family: monospace;
+        font-size: 2vw;
+        margin-top: 0px;
+        text-align: center;
+        width: 80%;
+    }
+    .about{
+        margin-bottom: 0px;
+    }
+    .about2{
+        margin-left: 0px;
+        margin-top: 3px;
+    }
+    .skills{
+        font-weight: bold;
+        font-size: 4.2vw;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .co{
+        color: rgb(255, 177, 32);
+    }
+    .lang{
+        padding: 5vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2vh;
+    }
+    .skill{
+        background-color: #2a2d33;
+        padding: 0.6vw 0.4vw;
+        font-size: 2vw;
+        border-radius: .1rem;
+        font-weight: bold;
+        color: white;
+        margin-right: 1vw;
+    }
+    .skill:hover{
+        background-color: rgb(255, 177, 32);
+    }
+    
+    .proj{
+        font-weight: bolder;
+        font-size: 4.2vw;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom:30px;
+    }
+    .po{
+        color: rgb(255, 177, 32);
+    }
+    .projects{
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: 10vw;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        font-size: 2vw;
+        color: rgba(255, 255, 255, 0.76);
+    }
+    .cont{
+        font-weight: bolder;
+        font-size: 4.2vw;
+        margin-top: 60px;
+        margin-bottom:25px;
+        display: block;
+        color: rgb(255, 177, 32);
+        text-align: center;
+        margin-left: 0px;
+    }
+    .abouttalking{
+        font-family: monospace;
+        font-size: 2vw;
+        margin-top: 0px;   
+        width: 50%;
+        margin-right: 0px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+    }
+    input, textarea{
+        border: solid;
+        padding: 1vw;
+        margin: 3px;
+    }
+    input{
+        width: 23vw;    
+        font-size: 1.4vw;
+    }
+    textarea{
+        width: 23vw;
+        font-size: 1.4vw;
+    }
+    .formgroup{
+        margin: 0px;
+        
+    }
+    .submit{
+        display: block;
+        margin: auto;
+        background-color: rgb(255, 177, 32);
+        border: none;
+        height: 2.3vw;
+        width: 10vwpx;
+        border-radius: 4px;
+        font-size: 1.2vw;
+        margin-bottom: 20px;
+    }
+    .submit:hover{
+        cursor: pointer;
+        background-color: rgb(253, 194, 85);
+    }
+    .submit:active{
+        background-color: rgb(226, 183, 102);
+    }
+    .icon2{
+        margin-left: 2.6vw;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-size: 1.2vw;
+    }
+    
 }
