@@ -35,6 +35,7 @@ body{
     justify-content: center;
     margin-top: 20px;
     width: 100%;
+
 }
 
 .home{
@@ -61,8 +62,7 @@ body{
     display: flex;
     padding: 8px 16px;
     border-radius: 15px;
-    border: rgba(255, 255, 255, 0.123) solid;
-    border-width: 1px;
+    border: none;
     font-size: 70%;
     font-weight: lighter;
 }
@@ -281,8 +281,7 @@ textarea{
         display: flex;
         padding: 4px 8px;
         border-radius: 15px;
-        border: rgba(255, 255, 255, 0.123) solid;
-        border-width: 1px;
+        border: none;
         font-size: 80%;
         font-weight: lighter;
     }
